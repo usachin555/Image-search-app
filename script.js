@@ -33,7 +33,7 @@
         imageLink.appendChild(image);
         searchResult.appendChild(imageLink);
     })
-    showMoreBtn.style.display = "block";
+    showMoreBtn.style.display = "block" ;
 
     if(page==1){
       previousBtn.style.display = "none";
@@ -42,7 +42,6 @@
     {
       previousBtn.style.display = "block";
     }
-    // previousBtn.style.display = "block";
  }
 
  searchForm.addEventListener("submit", (e)=>{
